@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+section {
+    border: solid red 3px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ---------para :horizontal------- */
+/* justify-content */
+/* flex-start
+center 
+flex-end */
+/* space-between */
+/* space-around */
+
+/* -------para vertical-------- */
+/* align-items */
+/* flex-start
+/* center  */
+/* flex-end */
+
+/* --------para cambiar de direccion----- */
+/* column */
+/* row */
+article {
+    border: solid blue 4px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

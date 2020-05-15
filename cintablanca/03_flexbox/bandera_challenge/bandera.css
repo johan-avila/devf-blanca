@@ -1,0 +1,81 @@
+* {
+    background: blue;
+}
+
+main {
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 40vh;
+    background: blue;
+}
+
+body {
+    /* border: chartreuse solid 5px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.izq {
+    /* border: 2px black solid; */
+    height: 100%;
+    width: 25%;
+    background: white;
+
+}
+
+.der {
+    /* border: black solid 2px; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.uno {
+    /* border: tomato solid 2px; */
+    height: 70%;
+    width: 70%;
+    background: red;
+
+}
+
+.dos {
+    /* border: tomato solid 2px]] */
+    height: 70%;
+    width: 85%;
+    background: red;
+}
+
+.inferior {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.izqabajo {
+    /* border: 2px black solid; */
+    height: 100%;
+    width: 25%;
+    background: white;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+}
+
+.derabajo {
+    /* border: black solid 2px; */
+    height: 100%;
+    width: 60%;
+    background: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

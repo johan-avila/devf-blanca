@@ -1,0 +1,27 @@
+.ip{display: flex;
+    justify-content: space-around;
+
+
+    /* border: 2px green solid; */
+}
+
+input {
+    background: pink;
+    height: 30px ;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background: blue;
+    color: cornsilk;
+}
+p{
+    height: 40px;
+    width: 300px;
+    border: darkgreen 2px solid;
+}

@@ -1,0 +1,61 @@
+header {
+    /* border: red solid 2px; */
+}
+
+nav {
+    /* border: solid 3px blue; */
+    height: 30px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 4px;
+}
+
+main {
+    /* border: green 2px solid; */
+}
+
+section {
+    /* border: green 2px solid; */
+    padding-top: 100px;
+}
+
+.logoContainer{
+    
+    margin-left: 550px;
+}
+.inputANDbuttoncontainer {
+    /* border: solid red 2px; */
+    margin-top: 30px;
+    padding-left: 430px;
+
+}
+
+.inputANDbuttoncontainer > input {
+width: 500px;    
+height: 30px;
+border-radius: 25px;
+border: solid 1px rgb(85, 84, 84);
+}
+
+.inputANDbuttoncontainer > div 
+{
+    /* border: solid greenyellow 2px; */
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.inputANDbuttoncontainer > div button {
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    margin: 0 2px;
+}

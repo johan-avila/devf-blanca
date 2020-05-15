@@ -1,0 +1,35 @@
+/* *{
+    background: red ;
+} */
+
+/* body{background: purple;} */
+/* llamas a la etiqueta body, pones background y pones color  */
+nav{border: 2px solid purple;}
+h1{
+    border: solid 2px purple;
+   
+    text-align: center;
+
+    padding-left:100px;
+
+    font-family: Georgia, 'Times New Roman';
+}
+
+/* No importa el orden de el color, tamaño y solid */
+/* a{border: purple solid 2px ;} */
+/* 
+p{ display: inline-block;
+   border: 2px purple solid;
+   width: 40%;
+   height: 500px;} */
+   p{display: inline-block;
+    height: 50px;}
+    .parrafo1{
+       border: 2px solid purple;
+       width: 30%;
+       height: 100vh;}
+    .parrafo2{
+        border: 2px solid black;
+        width: 30%;
+        margin: 40px 60px;
+    }
